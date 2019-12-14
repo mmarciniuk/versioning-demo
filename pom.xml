@@ -4,7 +4,7 @@
 
     <groupId>pl.mm</groupId>
     <artifactId>versioningDemo</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>versioning-demo</name>
 
     <properties>
@@ -21,7 +21,7 @@
         <connection>scm:git:ssh@github.com:mmarciniuk/versioning-demo.git</connection>
         <developerConnection>scm:git:git@github.com:mmarciniuk/versioning-demo.git</developerConnection>
         <url>https://github.com/mmarciniuk/versioning-demo.git</url>
-        <tag>v-0.0.2</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <build>
