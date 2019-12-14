@@ -60,7 +60,6 @@
                     <goals>pre-integration-test</goals>
                     <preparationGoals>package</preparationGoals>
                     <allowTimestampedSnapshots>true</allowTimestampedSnapshots>
-                    <tag>v-${project.version}</tag>
                     <tagNameFormat>v-${project.version}</tagNameFormat>
                     <remoteTagging>false</remoteTagging>
                 </configuration>
