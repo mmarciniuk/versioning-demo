@@ -4,7 +4,8 @@
 
     <groupId>pl.mm</groupId>
     <artifactId>versioningDemo</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>versioning-demo</name>
 
     <properties>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -20,7 +21,7 @@
         <connection>scm:git:ssh@github.com:mmarciniuk/versioning-demo.git</connection>
         <developerConnection>scm:git:git@github.com:mmarciniuk/versioning-demo.git</developerConnection>
         <url>https://github.com/mmarciniuk/versioning-demo.git</url>
-        <tag>version-0.0.2-SNAPSHOT</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <build>
@@ -59,8 +60,8 @@
                     <goals>pre-integration-test</goals>
                     <preparationGoals>package</preparationGoals>
                     <allowTimestampedSnapshots>true</allowTimestampedSnapshots>
-                    <tag>version-${project.version}</tag>
-                    <tagNameFormat>version-${project.version}</tagNameFormat>
+                    <tag>v-${project.version}</tag>
+                    <tagNameFormat>v-${project.version}</tagNameFormat>
                     <remoteTagging>false</remoteTagging>
                 </configuration>
             </plugin>
